@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+	height: auto;
+	width: auto;
+	margin: 2px;
+}
+.header{
+	height: 130px;
+	width: 100%;
+	background-color: mediumpurple;
+}
+.logo{
+	margin-top: 13px;
+	margin-left: 13px;
+	height: 80%;
+	width: 20%;
+	background-color: white;
+	float: left;
+}
+.navi{
+	text-align: center;
+	overflow: hidden;
+	background-color: paleturquoise;
+	margin: 5px 0px;
+}
+.navi a{
+	float: left;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font: 15px;
+	text-decoration: none;
+	padding: 16px 18px;
+	color: black;
+}
+.navi a:hover{
+	background-color: white;
+	color: black;
+}
+.navi a.active{
+	background-color: black;
+	color: white;
+}
+.banner{
+	height: 270px;
+	width: 100%;
+	background-color: mediumpurple;
+	margin: 5px 0px;
+}
+.widget-bar{
+	height: 750px;
+	width: 29.5%;
+	background-color: aqua;
+	float: left;
+	margin: 5px 0px;
+}
+.main-body{
+	height: 750px;
+	width: 69.5%;
+	background-color: aquamarine;
+	float: right;
+	margin: 5px 0px;
+}
+.footer{
+	height: 80px;
+	width: 100%;
+	float: right;
+	background-color: mediumpurple;
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font:15px;
+	padding-top: 10px;
+}
+th, td{
+	align-content: center;
+	border: 2px solid #000000;
+	padding: 10px;
+}
+.widget-bar table{
+	margin-top: 20px;
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font: 15px;
+}
+.main-body form{
+	margin-top: 150px;
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font:15px;
+}
+.widget-bar h1, p{
+	text-align: center;
+	padding: 10px;
+}
